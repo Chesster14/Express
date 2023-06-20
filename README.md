@@ -1,9 +1,3 @@
-
-
-Build out the Express server; in other words, import Express, import your routes (still problems)
-instantiate an instance of Express, attach any necessary middleware, and so on
-and then finally start the webserver up so it can listen to requests and respond accordingly to those requests made
-
 # ProfessionalExpressNotes
 
 ![License: MIT](https://custom-icon-badges.demolab.com/badge/license-MIT-yellowgreen.svg?logo=law)
