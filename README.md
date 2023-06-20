@@ -1,3 +1,14 @@
+
+
+Create an index.js file (or server.js) in the root of the application folderAnd then build out the Express server; in other words, import Express, import your routes
+instantiate an instance of Express, attach any necessary middleware, and so on
+and then finally start your webserver up so it can listen to requests and respond accordingly to those requests
+
+
+
+
+
+
 # ProfessionalExpressNotes
 
 ![License: MIT](https://custom-icon-badges.demolab.com/badge/license-MIT-yellowgreen.svg?logo=law)
