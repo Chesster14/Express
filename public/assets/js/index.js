@@ -191,3 +191,6 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+
+
+// knowing what I can and cannot mess with is the hardest part
