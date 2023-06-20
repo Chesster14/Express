@@ -3,6 +3,7 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
+let deleteButton;
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
@@ -10,6 +11,7 @@ if (window.location.pathname === '/notes') {
   saveNoteBtn = document.querySelector('.save-note');
   newNoteBtn = document.querySelector('.new-note');
   noteList = document.querySelectorAll('.list-container .list-group');
+  deleteNoteBtn = document.querySelector('.delete-note');
 }
 
 // Show an element
@@ -113,6 +115,14 @@ const handleRenderSaveBtn = () => {
     hide(saveNoteBtn);
   } else {
     show(saveNoteBtn);
+  }
+};
+
+const handleRenderDeleteBtn = () => {
+  if (!noteTitle.value.trim() || !noteText.value.trim()) {
+    hide(DeleteNoteBtn);
+  } else {
+    show(DeleteNoteBtn);
   }
 };
 
