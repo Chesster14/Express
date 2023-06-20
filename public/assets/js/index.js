@@ -43,7 +43,7 @@ const saveNote = (note) =>
     },
     body: JSON.stringify(note),
   });
-
+//had it and lost it, try to figure it out from here, but keep going!!! Look at fetch ${ID}
 const deleteNote = (id) =>
   fetch(`/api/notes/${id}`, {
     method: 'DELETE',
