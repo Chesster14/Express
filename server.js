@@ -17,7 +17,7 @@ app.get("/api/notes", (req, res) => {
 });
 
 app.post("/api/notes", (req, res) => {
-   readAndAppend(req.body, './db/db.json')
+   readAndAppend(req.body, './db/db.json').then(()=>readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data))))
 });
 
 // GET Route for notes.html
