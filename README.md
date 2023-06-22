@@ -21,7 +21,7 @@ Open the ExpressNotes server so you are presented with a landing page with a lin
 This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
 ## Installation
-    Git clone <URL> & npm i
+See Express link above
 
 ## Questions
   Please reach me at tod.winchester@gmail.com for any questions related to the project.
